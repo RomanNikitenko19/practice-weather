@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"/>
   <title>Document</title>
-  <!-- <style>
-    body {
-      background: red;
-    }
-  </style> -->
 </head>
-
-<body style="background: green;">
-  <h1 id="main-title">Hello</h1>
-<div class="hb"></div>
-  <!-- <input type="range" id='rangeInput'>
-  <div class="box-container"> -->
-
-    <!-- <ul>
-      <li>
-        <a href="#">
-          <img src="" alt="">
-        </a>
-      </li>
-    </ul> -->
-
-  </div>
-
-  <ul class="posts"></ul>
-
+<body>
+  <!-- тут инпут с запросом города -->
+  <form class="searchWeatherForm" id="weatherForm">
+    <input class="searchWeatherInput" id="weatherInput" type="text" placeholder="enter the city">
+  </form>
+<!-- сюда вставляем карточки дней с погодой по датам -->
+  <ul class="daysList" id="daysList"></ul>
 </body>
-
 </html>
